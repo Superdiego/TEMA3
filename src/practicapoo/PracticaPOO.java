@@ -81,7 +81,9 @@ public class PracticaPOO {
         System.out.println(totalarea);
         
        
-        //double areatriangulo ()
+        //Contador de puntos
+        
+        System.out.println("El numero total de puntos es  "+Punto.getContadorPuntos());
       }
     
   

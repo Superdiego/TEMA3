@@ -11,11 +11,11 @@ package practicapoo;
  */
 public class Punto {
     private double x, y;
-    private int contadorPuntos;
+    private static int contadorPuntos;
     
     //Constructor vacio
     Punto() {
-
+      contadorPuntos++;
     }
    
     //Contructor que recibe los puntos
@@ -63,7 +63,7 @@ public class Punto {
     /**
      * @return the contadorPuntos
      */
-    public int getContadorPuntos() {
+    public static int getContadorPuntos() {
         return contadorPuntos;
     }
     
