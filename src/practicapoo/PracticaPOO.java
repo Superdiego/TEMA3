@@ -82,8 +82,7 @@ public class PracticaPOO {
         
        
         //Contador de puntos
-        
-        System.out.println("El numero total de puntos es  "+Punto.getContadorPuntos());
+        System.out.println("El numero total de puntos es de "+Punto.getContadorPuntos()+" puntos");
       }
     
   
